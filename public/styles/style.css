@@ -1,0 +1,29 @@
+.task-listing {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.complete {
+    border: 2px solid #000;
+    background-color: #ddd;
+    color: gray;
+}
+
+.incomplete {
+    background-color: white;
+}
+
+.button-container {
+    width: 85%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#task-container button {
+    margin: 10px;
+}
